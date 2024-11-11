@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap');
+
+.result-container {
+    padding: 20px;
+    background-color: #fcf2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.result-box {
+    background-color: #7F6F70;
+    border-radius: 50px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    display: inline-block;
+
+}
+
+.result-box .header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.closebutton {
+    background-color: #7F6F70;
+    font-size: 1.2rem;
+    color: #FFC0CB;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 4px rgb(66, 57, 58);
+}
+
+.closebutton:hover {
+    background-color: #FFC0CB;
+    color: #7F6F70;
+}
+
+.result {
+    font-size: 25px;
+    color: #FFDFE1;
+    margin-bottom: 10px;
+    background-color: #7F6F70;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.description {
+    font-size: 16px;
+    color: #FFDFE1;
+    margin-bottom: 10px;
+    background-color: #7F6F70;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.probabilities {
+    margin: 1rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+.probability-text {
+    font-weight: 500;
+    color: #333;
+}
+
+.loading-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.loading-message {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+
+
+.button-rs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 800px;
+}
+
+
+.backrs-button {
+    background-color: #FFC0CB;
+    color: #000000;
+    padding: 18px 34px;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 200px;
+    border: none;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.backrs-button:hover {
+    transform: translateY(-2px);
+    background-color: #fa9ba1;
+    color: #000000;
+}
+
+
+.backrs-button:active {
+    transform: translateY(0);
+}
+
+.homers-button {
+    background-color: #FFC0CB;
+    color: #000000;
+    padding: 18px 34px;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 200px;
+    border: none;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.homers-button:hover {
+    transform: translateY(-2px);
+    background-color: #fa9ba1;
+    color: #000000;
+}
+
+.homers-button:active {
+    transform: translateY(0);
+}
+
+@media screen and (max-width: 768px) {
+    .result-box {
+        max-width: 400px;
+    }
+
+    .button-rs {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+    }
+
+    .backrs-button,
+    .homers-button {
+        width: 100%;
+        max-width: 350px;
+        min-width: unset;
+        padding: 15px 80px;
+        font-size: 1rem;
+    }
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+    .result-box {
+        max-width: 320px;
+    }
+    
+    .button-rs {
+        gap: 0.7rem;
+    }
+
+    .backrs-button,
+    .homers-button {
+        padding: 15px 60px;
+        font-size: 1rem;
+    }
+}

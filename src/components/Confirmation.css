@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap');
+
+.app-container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fcf2f2;
+    height: 100%;
+}
+
+
+.header-container {
+    width: 100%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    gap: 1px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    width: auto;
+    height: 60px;
+    margin-bottom: 1px;
+}
+
+.header-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 0px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.header-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 420px;
+    height: 0.5px;
+    background-color: #333;
+}
+
+.confirmation-container {
+    padding: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.confirmation-icon {
+    color: #4CAF50;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.confirmation-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.confirmation-message {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.confirmation-details {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.confirmation-details p {
+    margin: 5px 0;
+}
+
+.home-button {
+    background-color: #7F6F70;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #5e5051;
+}
