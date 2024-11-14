@@ -181,6 +181,15 @@
     object-fit: cover;
 }
 
+.Thank {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+    color: #7F6F70;
+    padding-top: 25px;
+}
+
 @keyframes fadeIn {
     to {
         opacity: 1;

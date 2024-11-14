@@ -19,7 +19,7 @@ function HomePage() {
     <div className="home-container">
       <div className="logo-container">
         <img src="/ccribbon.png" alt="Breast Cancer Awareness" className="logo" />
-        <h1 className="title">ระบบประเมินความเสี่ยง<br/>โรคมะเร็งเต้านมด้วยตนเอง</h1>
+        <h1 className="title">SMART Breast Risk<br/>ระบบ AI ประเมินความเสี่ยงมะเร็งเต้านมด้วยตนเอง</h1>
       </div>
 
       <section className="button-section">

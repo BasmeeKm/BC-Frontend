@@ -229,4 +229,10 @@
     .submit-button {
         grid-column: 70%;
     }
+
+    .popup-content {
+        width: 80%;
+        padding: 15px;
+    }
+
 }

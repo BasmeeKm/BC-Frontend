@@ -104,20 +104,20 @@ function Knowledge() {
               {section.title}
             </button>
           ))}
-            <button className="special-button"
-              onClick={() => navigate('/Ans')}
-            >
-              แบบประเมินตนเอง
-            </button>
+          <button className="special-button"
+            onClick={() => navigate('/Ans')}
+          >
+            แบบประเมินตนเอง
+          </button>
         </div>
       </section>
 
       <div className="section-container">
         {sections.map((section) => (
           <div key={section.id} className="section-wrapper fade-in-section">
-            
+
             <div className="content-section">
-            <h2 className="section-title" id={section.id}>{section.title}</h2>
+              <h2 className="section-title" id={section.id}>{section.title}</h2>
               {section.content && <p>{section.content}</p>}
               {section.list && (
                 <ul className="facts-list">
@@ -132,8 +132,10 @@ function Knowledge() {
             </div>
           </div>
         ))}
-
       </div>
+      <div className='Thank'>
+          <p>ขอขอบคุณข้อมูลความรู้จาก Facebook: มาดหมอ</p>
+        </div>
     </div>
   );
 }

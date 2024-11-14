@@ -212,7 +212,7 @@ const Screening = () => {
       {showPopup && (
         <div className="consent-popup">
           <div className="popup-content">
-            <p>คุณต้องการส่งข้อมูลนี้หรือไม่?</p>
+            <p>ยินยอมให้บันทึกข้อมูลเพื่อการคัดกรองและการดำเนินการทางการแพทย์ (ข้อมูลจะถูกเก็บเป็นความลับ)</p>
             <button onClick={handleConfirm} className="consent-button">ยืนยัน</button>
             <button onClick={handleCancel} className="consent-button">ยกเลิก</button>
           </div>

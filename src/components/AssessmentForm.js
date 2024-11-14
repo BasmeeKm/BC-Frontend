@@ -218,7 +218,7 @@ function AssessmentForm() {
         {showConsentPopup && (
           <div className="consent-popup">
             <div className="popup-content">
-              <p>คุณยินยอมให้ใช้ข้อมูลนี้เพื่อการประเมินความเสี่ยงหรือไม่?</p>
+              <p>ยินยอมให้นำข้อมูลไปใช้ในการพัฒนาโมเดลต่อไป (ข้อมูลจะถูกเก็บเป็นความลับ)</p>
               <button onClick={() => handleConsent(true)} className="consent-button">ยินยอม</button>
               <button onClick={() => handleConsent(false)} className="consent-button">ไม่ยินยอม</button>
             </div>

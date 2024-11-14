@@ -196,4 +196,9 @@
     .submit-button {
         grid-column: auto;
     }
+
+    .popup-content {
+        width: 80%;
+        padding: 15px;
+    }
 }
