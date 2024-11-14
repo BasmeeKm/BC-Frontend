@@ -17,9 +17,8 @@
     padding: 30px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     max-width: 500px;
-    width: 100%;
+    width: 70%;
     display: inline-block;
-
 }
 
 .result-box .header {
@@ -152,6 +151,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .result-container {
+        height: 100vh;
+    }
+    
     .result-box {
         max-width: 400px;
     }
@@ -170,12 +173,13 @@
         padding: 15px 80px;
         font-size: 1rem;
     }
-
-
-
 }
 
 @media screen and (max-width: 480px) {
+    .result-container {
+        height: auto;
+    }
+
     .result-box {
         max-width: 320px;
     }
